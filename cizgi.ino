@@ -115,7 +115,7 @@ void loop()
   }
 else if(position<4300 )
   { 
-  diitalWrite(a1, HIGH);
+  digitalWrite(a1, HIGH);
   digitalWrite(a2, LOW);
   analogWrite(PWMa,130);
   digitalWrite(b1, HIGH);
